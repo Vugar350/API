@@ -2,7 +2,7 @@ image: Ubuntu
 
 
 stack: jdk 11
-  - chmod +x gradlew
+
 
 branches:
   only:
@@ -17,5 +17,5 @@ install:
 
 
 build_script:
-
+  - chmod +x gradlew
   - ./gradlew test --info
