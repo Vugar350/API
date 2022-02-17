@@ -2,12 +2,12 @@ image: Ubuntu
 
 
 stack: jdk 11
-
+  - chmod +x gradlew
 
 branches:
   only:
     - master
-  - chmod +x gradlew
+
 
 build: off
 
