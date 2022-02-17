@@ -7,10 +7,10 @@ stack: jdk 11
 branches:
   only:
     - master
-
+  - chmod +x gradlew
 
 build: off
-  - chmod +x gradlew
+
 install:
 
   - java -jar ./artifacts/app-mbank.jar &
