@@ -1,4 +1,4 @@
-package ru.netology.rest;
+package ru.Netology.rest;
 
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Test;
